@@ -1,6 +1,6 @@
 {
   "name": "@quantix-ict/insphire",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Package for Insphire (Quantix)",
   "exports": {
     ".": {
@@ -26,7 +26,14 @@
     "build:cjs": "tsc -p ./configs/tsconfig.cjs.json",
     "prepack": "npm run build"
   },
-  "keywords": [],
+  "keywords": [
+    "insphire",
+    "quantix"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Quantix-IT/insphire.git"
+  },
   "author": "quantix-ict",
   "license": "ISC",
   "devDependencies": {
